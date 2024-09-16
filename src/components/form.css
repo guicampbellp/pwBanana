@@ -1,0 +1,62 @@
+/* Estilização geral do contêiner do formulário */
+#caixa {
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+/* Estilização do título */
+h1 {
+    color: #101289;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Estilização dos rótulos */
+label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilização dos campos de entrada */
+input[type="text"],
+input[type="password"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+/* Estilização do botão */
+#btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #101289;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#btn:hover {
+    background-color: #07085c;
+    transform: scale(1.02);
+}
